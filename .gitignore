@@ -18,3 +18,6 @@
 /connPostgreSql/nbproject/private/
 /connPostgreSql/dist/
 /connPostgreSql/build/
+/connOracleSql/nbproject/private/
+/connOracleSql/build/
+/connOracleSql/dist/

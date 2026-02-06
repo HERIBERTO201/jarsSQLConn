@@ -24,7 +24,7 @@ public class connPostgreSql {
             Class.forName(driver);
         } catch (ClassNotFoundException  ex) {
             throw new SQLException(
-                "No se encontró el driver JDBC de SQL Server", ex
+                "No se encontró el driver JDBC de PostgreSQL", ex
             );
         }
         return DriverManager.getConnection(connectionUrl,user,pass);
